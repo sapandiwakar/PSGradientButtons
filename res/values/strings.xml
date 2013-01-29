@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PSGradientButtons</string>
+    <string name="menu_settings">Settings</string>
+    <string name="blogger">Blogger</string>
+    <string name="deviant">Deviant</string>
+    <string name="digg">Digg</string>
+    <string name="dribble">Dribble</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="evernote">Evernote</string>
+    <string name="facebook">Facebook</string>
+    <string name="flickr">Flickr</string>
+    <string name="forrst">Forrst</string>
+    <string name="github">Github</string>
+    <string name="google_plus">Google Plus</string>
+    <string name="hacker_news">Hacker News</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_2">Instagram-2</string>
+    <string name="last_fm">Last.fm</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="paypal">PayPal</string>
+    <string name="picasa">Picasa</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="quora">Quora</string>
+    <string name="rss">RSS</string>
+    <string name="skype">Skype</string>
+    <string name="slideshare">Slideshare</string>
+    <string name="stackoverflow">Stackoverflow</string>
+    <string name="stumble_upon">StumbleUpon</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="vimeo">Vimeo</string>
+    <string name="wordpress">Wordpress</string>
+    <string name="yahoo">Yahoo!</string>
+    <string name="youtube">Youtube</string>
+
+</resources>
