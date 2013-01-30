@@ -157,13 +157,5 @@
     <color name="DarkBlue">#00008B</color>
     <color name="Navy">#000080</color>
     <color name="Black">#000000</color>
-    <color name="facebookName">#39579a</color>
-    <color name="facebookPostContentBackgroundGray">#f7f7f7</color>
-    <color name="TranslucentBlack">#50000000</color>
-    <color name="toolbar_top">#ff7d88a5</color>
-    <color name="toolbar_bottom">#ff3a4e78</color>
-    <color name="highlight_top">#ffffc600</color>
-    <color name="highlight_bottom">#ffcf9600</color>
-    <color name="toolbar_fg">#ffffffff</color>
 
 </resources>
