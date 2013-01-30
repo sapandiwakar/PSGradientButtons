@@ -1,5 +1,12 @@
 #PSGradientButtons
 A collection of buttons for use in Android applications. All buttons are in the form of xml-selectors and don't require any images. The advantage of using XML Drawables is that they automatically adjust to the correct size.
+It contains several buttons inpired by the color scheme used in social networks.
+
+<img width="25%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-1.png"/>
+<img width="25%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-2.png"/> 
+<img width="25%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-3.png"/>
+<img width="25%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-4.png"/>
+
 
 #Usage
 All graphical assets for the buttons are stored in Drawable folder and can get directly accessed as Drawables in XML via @drawable/filename whereby filename is the filename without extension. For example to acceces the ps__button_github.xml file, you would use @drawable/ps__button_github. 
