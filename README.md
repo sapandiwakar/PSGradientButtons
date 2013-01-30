@@ -9,7 +9,7 @@ It contains several buttons inpired by the color scheme used in social networks.
 
 
 #Usage
-All graphical assets for the buttons are stored in Drawable folder and can get directly accessed as Drawables in XML via @drawable/filename whereby filename is the filename without extension. For example to acceces the ps__button_github.xml file, you would use @drawable/ps__button_github. 
+All graphical assets for the buttons are stored in Drawable folder and can get directly accessed as Drawables in XML via `@drawable/filename` whereby `filename` is the filename without extension. For example to acceces the `ps__button_github.xml` file, you would use `@drawable/ps__button_github`. 
 
 To use the drawables, just add the xml drawable as the background for your button in layout.
 
