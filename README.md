@@ -1,6 +1,6 @@
 #PSGradientButtons
 A collection of buttons for use in Android applications. All buttons are in the form of xml-selectors and don't require any images. The advantage of using XML Drawables is that they automatically adjust to the correct size.
-It contains several buttons inpired by the color scheme used in social networks.
+It contains several buttons inpired by the color scheme used in social networks. See [demo on Play Store](https://play.google.com/store/apps/details?id=com.psgradientbuttons). 
 
 <img width="25%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-1.png"/>
 <img width="25%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-2.png"/> 
