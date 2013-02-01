@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+  <link rel="stylesheet" type="text/css" href="styles/css/nyroModal.css" media="screen" />
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,57 +31,62 @@
         <section id="main-content">
           <h3>PSGradientButtons</h3>
 
-<p>A collection of buttons for use in Android applications. All buttons are in the form of xml-selectors and don't require any images. The advantage of using XML Drawables is that they automatically adjust to the correct size.
-It contains several buttons inpired by the color scheme used in social networks. See <a href="https://play.google.com/store/apps/details?id=com.psgradientbuttons">demo on Play Store</a>. </p>
+          <p>A collection of buttons for use in Android applications. All buttons are in the form of xml-selectors and don't require any images. The advantage of using XML Drawables is that they automatically adjust to the correct size.
+            It contains several buttons inpired by the color scheme used in social networks. See <a href="https://play.google.com/store/apps/details?id=com.psgradientbuttons">demo on Play Store</a>. </p>
 
-<p><img width="22%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-1.png"><img width="22%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-2.png"><img width="22%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-3.png"><img width="22%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-4.png"></p>
+            <div id="gallery">
+              <a class="nyroModal" href="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-1.png" rel="gal"><img width="22%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-1.png"></a>
+              <a class="nyroModal" href="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-2.png" rel="gal"><img width="22%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-2.png"></a>
+              <a class="nyroModal" href="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-3.png" rel="gal"><img width="22%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-3.png"></a>
+              <a class="nyroModal" href="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-4.png" rel="gal"><img width="22%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-4.png"></a>
+            </div>
 
-<h3>Usage</h3>
+            <h3>Usage</h3>
 
-<p>All graphical assets for the buttons are stored in Drawable folder and can get directly accessed as Drawables in XML via <code>@drawable/filename</code> whereby <code>filename</code> is the filename without extension. For example to acceces the <code>ps__button_github.xml</code> file, you would use <code>@drawable/ps__button_github</code>. </p>
+            <p>All graphical assets for the buttons are stored in Drawable folder and can get directly accessed as Drawables in XML via <code>@drawable/filename</code> whereby <code>filename</code> is the filename without extension. For example to acceces the <code>ps__button_github.xml</code> file, you would use <code>@drawable/ps__button_github</code>. </p>
 
-<p>To use the drawables, just add the xml drawable as the background for your button in layout.</p>
+            <p>To use the drawables, just add the xml drawable as the background for your button in layout.</p>
 
-<pre><code>&lt;Button
-  ..
-  android:background="@drawable/ps__button_github"
-  ..
-   /&gt;
-</code></pre>
+            <pre><code>&lt;Button
+              ..
+              android:background="@drawable/ps__button_github"
+              ..
+              /&gt;
+            </code></pre>
 
-<p>Or set them programmatically using <a href="http://developer.android.com/reference/android/view/View.html#setBackgroundResource%28int%29">setBackgroundResource</a>.</p>
+            <p>Or set them programmatically using <a href="http://developer.android.com/reference/android/view/View.html#setBackgroundResource%28int%29">setBackgroundResource</a>.</p>
 
-<pre><code>myButton.setBackgroundResource(R.drawable.ps__button_github);
-</code></pre>
+            <pre><code>myButton.setBackgroundResource(R.drawable.ps__button_github);
+            </code></pre>
 
-<p>There are two ways to include the buttons in your project: </p>
+            <p>There are two ways to include the buttons in your project: </p>
 
-<ol>
-<li>Copy the xml drawables into your project: This is probably the simplest way to start using the buttons in your project. All you need to do is copy the xml drawable that you would like to use in <code>res/drawable/</code> directory in your project.</li>
-<li>Include GradientButtons as a library project into your project: If you would like to try out several of the buttons and don't feel like copying them into your project, you can also include PSGradientButtons as a library project. Just follow these steps: </li>
-</ol><ul>
-<li>Import PSGradientButtons into eclipse as an Android project. <code>File</code> -&gt; <code>Import</code> -&gt; <code>Existing Android code into Workspace</code>.</li>
-<li>Right click on PSGradientButtons and go to <code>Properties</code> (<code>⌘I</code> or <code>^I</code>) -&gt; <code>Android</code> and make sure that <code>Is Library</code> is checked.</li>
-<li>Right click on your project and go to <code>Properties</code> (<code>⌘I</code> or <code>^I</code>) -&gt; <code>Andaroid</code> and <code>Add</code> PSGradientButtons as a library.</li>
-<li>Start using the xml drawables.</li>
-</ul><h3>License</h3>
+            <ol>
+              <li>Copy the xml drawables into your project: This is probably the simplest way to start using the buttons in your project. All you need to do is copy the xml drawable that you would like to use in <code>res/drawable/</code> directory in your project.</li>
+              <li>Include GradientButtons as a library project into your project: If you would like to try out several of the buttons and don't feel like copying them into your project, you can also include PSGradientButtons as a library project. Just follow these steps: </li>
+            </ol><ul>
+            <li>Import PSGradientButtons into eclipse as an Android project. <code>File</code> -&gt; <code>Import</code> -&gt; <code>Existing Android code into Workspace</code>.</li>
+            <li>Right click on PSGradientButtons and go to <code>Properties</code> (<code>⌘I</code> or <code>^I</code>) -&gt; <code>Android</code> and make sure that <code>Is Library</code> is checked.</li>
+            <li>Right click on your project and go to <code>Properties</code> (<code>⌘I</code> or <code>^I</code>) -&gt; <code>Andaroid</code> and <code>Add</code> PSGradientButtons as a library.</li>
+            <li>Start using the xml drawables.</li>
+          </ul><h3>License</h3>
 
-<p>Copyright © <a href="http://sapandiwakar.in">Sapan Diwakar</a> and <a href="http://pulkitgoyal.in">Pulkit Goyal</a></p>
+          <p>Copyright © <a href="http://sapandiwakar.in">Sapan Diwakar</a> and <a href="http://pulkitgoyal.in">Pulkit Goyal</a></p>
 
-<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at</p>
+          <p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at</p>
 
-<p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+          <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
 
-<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</p>
+          <p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</p>
 
-<p>See the License for the specific language governing permissions and limitations under the License.</p>
+          <p>See the License for the specific language governing permissions and limitations under the License.</p>
 
-<h3>Authors:</h3>
+          <h3>Authors:</h3>
 
-<ul>
-<li>Sapan Diwakar (<a href="https://github.com/sapandiwakar" class="user-mention">@sapandiwakar</a>)</li>
-<li>Pulkit Goyal (<a href="https://github.com/pulkit110" class="user-mention">@pulkit110</a>)</li>
-</ul>
+          <ul>
+            <li>Sapan Diwakar (<a href="https://github.com/sapandiwakar" class="user-mention">@sapandiwakar</a>)</li>
+            <li>Pulkit Goyal (<a href="https://github.com/pulkit110" class="user-mention">@pulkit110</a>)</li>
+          </ul>
         </section>
 
         <aside id="sidebar">
@@ -100,16 +106,23 @@ It contains several buttons inpired by the color scheme used in social networks.
       </div>
     </div>
 
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-38110747-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-38110747-1");
+      pageTracker._trackPageview();
+    } catch(err) {}
+    </script>
 
-  </body>
-</html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <!--[if IE 6]>
+      <script type="text/javascript" src="javascripts/lib/nyroModal/jquery.nyroModal-ie6.min.js"></script>
+      <![endif]-->
+      <script type='text/javascript' src='javascripts/lib/nyroModal/jquery.nyroModal.custom.min.js'></script>
+      <script type='text/javascript' src='javascripts/main.js'></script>
+
+    </body>
+    </html>
