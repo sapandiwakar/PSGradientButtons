@@ -70,6 +70,15 @@
                 android:textColor="@color/WhiteSmoke" />
 
             <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_dropbox"
+                android:text="@string/dropbox"
+                android:textColor="@color/WhiteSmoke" />
+            
+            <Button
                 android:id="@+id/button29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
