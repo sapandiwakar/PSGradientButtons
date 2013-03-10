@@ -77,7 +77,7 @@
                 android:background="@drawable/ps__button_flat_dropbox"
                 android:text="@string/dropbox"
                 android:textColor="@color/WhiteSmoke" />
-            
+
             <Button
                 android:id="@+id/button29"
                 android:layout_width="match_parent"
@@ -95,8 +95,8 @@
                 android:background="@drawable/ps__button_facebook"
                 android:text="@string/facebook"
                 android:textColor="@color/WhiteSmoke" />
-            
-              <Button
+
+            <Button
                 android:id="@+id/button61"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -104,7 +104,6 @@
                 android:background="@drawable/ps__button_flat_facebook"
                 android:text="@string/facebook"
                 android:textColor="@color/WhiteSmoke" />
-            
 
             <Button
                 android:id="@+id/button30"
@@ -121,6 +120,15 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@drawable/ps__button_forrest"
+                android:text="@string/forrst"
+                android:textColor="@color/WhiteSmoke" />
+            
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_forrest"
                 android:text="@string/forrst"
                 android:textColor="@color/WhiteSmoke" />
 
