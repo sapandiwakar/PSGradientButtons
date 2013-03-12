@@ -132,6 +132,15 @@
                 android:background="@drawable/ps__button_github"
                 android:text="@string/github"
                 android:textColor="@color/WhiteSmoke" />
+            
+            <Button
+                android:id="@+id/button133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_github"
+                android:text="@string/github"
+                android:textColor="@color/WhiteSmoke" />
 
             <Button
                 android:id="@+id/button7"
