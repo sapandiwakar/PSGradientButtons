@@ -222,6 +222,15 @@
                 android:background="@drawable/ps__button_instagram_2"
                 android:text="@string/instagram_2"
                 android:textColor="@color/WhiteSmoke" />
+            
+              <Button
+                android:id="@+id/button101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_instagram_2"
+                android:text="@string/instagram_2"
+                android:textColor="@color/WhiteSmoke" />
 
             <Button
                 android:id="@+id/button19"
