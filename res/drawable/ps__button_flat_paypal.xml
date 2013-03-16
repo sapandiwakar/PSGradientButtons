@@ -17,13 +17,13 @@
 */
 -->
 <selector xmlns:android="http://schemas.android.com/apk/res/android" android:dither="true">
-    
+
     <item android:state_pressed="true"><shape>
             <gradient android:angle="270" android:endColor="#05497D" android:startColor="#05497D" />
 
             <stroke android:width="1dp" android:color="#003F76" />
 
-            <corners android:radius="4dp" />
+            <corners android:radius="3dp" />
 
             <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
         </shape></item>
@@ -32,7 +32,7 @@
 
             <stroke android:width="1dp" android:color="#003F76" />
 
-            <corners android:radius="4dp" />
+            <corners android:radius="3dp" />
 
             <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
         </shape></item>
