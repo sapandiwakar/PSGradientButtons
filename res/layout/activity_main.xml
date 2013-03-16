@@ -259,6 +259,16 @@
                 android:text="@string/linkedin"
                 android:textColor="@color/WhiteSmoke" />
 
+             <Button
+                android:id="@+id/button82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_linkedin"
+                android:text="@string/linkedin"
+                android:textColor="@color/WhiteSmoke" />
+            
+             
             <Button
                 android:id="@+id/button20"
                 android:layout_width="match_parent"
