@@ -240,6 +240,15 @@
                 android:background="@drawable/ps__button_last_fm"
                 android:text="@string/last_fm"
                 android:textColor="@color/WhiteSmoke" />
+            
+            <Button
+                android:id="@+id/button192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_last_fm"
+                android:text="@string/last_fm"
+                android:textColor="@color/WhiteSmoke" />
 
             <Button
                 android:id="@+id/button8"
