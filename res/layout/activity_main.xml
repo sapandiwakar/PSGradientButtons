@@ -349,7 +349,7 @@
                 android:textColor="@color/WhiteSmoke" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/button125"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
