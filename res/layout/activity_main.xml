@@ -32,8 +32,8 @@
                 android:background="@drawable/ps__button_deviant"
                 android:text="@string/deviant"
                 android:textColor="@color/WhiteSmoke" />
-            
-              <Button
+
+            <Button
                 android:id="@+id/button141"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
                 android:background="@drawable/ps__button_digg"
                 android:text="@string/digg"
                 android:textColor="@color/black" />
-            
+
             <Button
                 android:id="@+id/button222"
                 android:layout_width="match_parent"
@@ -140,7 +140,7 @@
                 android:background="@drawable/ps__button_forrst"
                 android:text="@string/forrst"
                 android:textColor="@color/WhiteSmoke" />
-            
+
             <Button
                 android:id="@+id/button36"
                 android:layout_width="match_parent"
@@ -158,7 +158,7 @@
                 android:background="@drawable/ps__button_github"
                 android:text="@string/github"
                 android:textColor="@color/WhiteSmoke" />
-            
+
             <Button
                 android:id="@+id/button133"
                 android:layout_width="match_parent"
@@ -176,7 +176,7 @@
                 android:background="@drawable/ps__button_google_plus"
                 android:text="@string/google_plus"
                 android:textColor="@color/WhiteSmoke" />
-            
+
             <Button
                 android:id="@+id/button72"
                 android:layout_width="match_parent"
@@ -185,7 +185,6 @@
                 android:background="@drawable/ps__button_flat_google_plus"
                 android:text="@string/google_plus"
                 android:textColor="@color/WhiteSmoke" />
-            
 
             <Button
                 android:id="@+id/button17"
@@ -204,8 +203,8 @@
                 android:background="@drawable/ps__button_instagram"
                 android:text="@string/instagram"
                 android:textColor="@color/WhiteSmoke" />
-            
-             <Button
+
+            <Button
                 android:id="@+id/button92"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -222,8 +221,8 @@
                 android:background="@drawable/ps__button_instagram_2"
                 android:text="@string/instagram_2"
                 android:textColor="@color/WhiteSmoke" />
-            
-              <Button
+
+            <Button
                 android:id="@+id/button101"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -240,7 +239,7 @@
                 android:background="@drawable/ps__button_last_fm"
                 android:text="@string/last_fm"
                 android:textColor="@color/WhiteSmoke" />
-            
+
             <Button
                 android:id="@+id/button192"
                 android:layout_width="match_parent"
@@ -259,7 +258,7 @@
                 android:text="@string/linkedin"
                 android:textColor="@color/WhiteSmoke" />
 
-             <Button
+            <Button
                 android:id="@+id/button82"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -267,8 +266,7 @@
                 android:background="@drawable/ps__button_flat_linkedin"
                 android:text="@string/linkedin"
                 android:textColor="@color/WhiteSmoke" />
-            
-             
+
             <Button
                 android:id="@+id/button20"
                 android:layout_width="match_parent"
@@ -286,10 +284,9 @@
                 android:background="@drawable/ps__button_paypal"
                 android:text="@string/paypal"
                 android:textColor="@color/WhiteSmoke" />
-            
-            
+
             <Button
-                android:id="@+id/button272"
+                android:id="@+id/button2722"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -305,8 +302,16 @@
                 android:background="@drawable/ps__button_flat_paypal"
                 android:text="@string/paypal"
                 android:textColor="@color/WhiteSmoke" />
-            
-            
+
+            <Button
+                android:id="@+id/button290"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_pinterest"
+                android:text="@string/pinterest"
+                android:textColor="@color/WhiteSmoke" />
+
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
