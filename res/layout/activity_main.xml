@@ -358,6 +358,15 @@
                 android:textColor="@color/WhiteSmoke" />
 
             <Button
+                android:id="@+id/button1211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_skype"
+                android:text="@string/skype"
+                android:textColor="@color/WhiteSmoke" />
+
+            <Button
                 android:id="@+id/button33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
