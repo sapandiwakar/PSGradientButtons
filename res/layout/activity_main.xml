@@ -376,6 +376,15 @@
                 android:textColor="@color/WhiteSmoke" />
 
             <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ps__button_flat_slideshare"
+                android:text="@string/slideshare"
+                android:textColor="@color/WhiteSmoke" />
+            
+            <Button
                 android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
