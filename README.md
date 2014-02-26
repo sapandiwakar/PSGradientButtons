@@ -49,5 +49,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
 See the License for the specific language governing permissions and limitations under the License.
 
 Authors: 
-Sapan Diwakar (diwakar.sapan@gmail.com)
-Pulkit Goyal (pulkit110@gmail.com)
+* Sapan Diwakar (diwakar.sapan@gmail.com)
+* Pulkit Goyal (pulkit110@gmail.com)
