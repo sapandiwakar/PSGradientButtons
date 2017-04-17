@@ -1,4 +1,4 @@
-#PSGradientButtons
+# PSGradientButtons
 A collection of buttons for use in Android applications. All buttons are in the form of xml-selectors and don't require any images. The advantage of using XML Drawables is that they automatically adjust to the correct size.
 It contains several buttons inpired by the color scheme used in social networks. See [demo on Play Store](https://play.google.com/store/apps/details?id=com.psgradientbuttons). 
 
@@ -8,7 +8,7 @@ It contains several buttons inpired by the color scheme used in social networks.
 <img width="25%" src="https://raw.github.com/sapandiwakar/PSGradientButtons/master/Screenshots/png-4.png"/>
 
 
-#Usage
+# Usage
 All graphical assets for the buttons are stored in Drawable folder and can get directly accessed as Drawables in XML via `@drawable/filename` whereby `filename` is the filename without extension. For example to acceces the `ps__button_github.xml` file, you would use `@drawable/ps__button_github`. 
 
 To use the drawables, just add the xml drawable as the background for your button in layout.
@@ -37,7 +37,7 @@ There are two ways to include the buttons in your project:
 * Right click on your project and go to `Properties` (`⌘I` or `^I`) -> `Andaroid` and `Add` PSGradientButtons as a library.
 * Start using the xml drawables.
 
-#License
+# License
 Copyright © [Sapan Diwakar](http://sapandiwakar.in) and [Pulkit Goyal](http://pulkitgoyal.in)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
